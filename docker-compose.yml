@@ -1,14 +1,13 @@
-version: '3'
+version: "3"
 
 services:
-    web-node-js:
-        image: mayjk23/nodejs:latest
-        ports:
-            - "3000:3000"
-        environment:
-            - MONGODB_ADDON_URI=mongodb://mongodb:27017/test
-    mongodb:
-        image: mongo:latest
-        ports: 
-            - "27017:27017"
-        
+  web-node-js:
+    image: mayjk23/nodejs2:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_ADDON_URI=mongodb://mongodb:27017/test
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
