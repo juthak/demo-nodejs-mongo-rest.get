@@ -1,0 +1,1000 @@
+   13  docker rmi e5effd7d4bc9
+   14  docker images
+   15  docker rmi 79783e8efeae
+   16  docker rmi 2fda2303e180
+   17  docker rmi 20c45bb7a267
+   18  docker rmi 25710a5cb987
+   19  docker rmi 10.1.2.50:5000/hello-jenkin
+   20  docker rmi 10.1.2.50:5000/hello-jenkin:latest
+   21  docker rmi 9b6bc5a70852
+   22  docker images
+   23  docker rmi 7aef30ae6655
+   24  docker rmi b01d82bd42de
+   25  docker rmi a2821bb1b491
+   26  docker rmi 0684d2dc4e30
+   27  docker rmi 3cc5ae056410
+   28  docker rmi 9addd311f61f
+   29  docker rmi 8811e7aa6aa8
+   30  docker rmi 8a6e4be30454
+   31  docker rmi 5061605cab0e
+   32  docker rmi db898fb9a621
+   33  docker rmi 470cccf7918c
+   34  docker rmi 9ad5705703ca
+   35  docker rmi 1a6a77779a29
+   36  docker images
+   37  service firewalld stop
+   38  docker images
+   39  service firewalld start
+   40  docker images
+   41  docker rmi 10.1.2.50:5000/nginx-angular
+   42  docker rmi 4997f10cdfdc
+   43  docker rmi a07c9ebff61f
+   44  service firewalld stop
+   45  service firewalld start
+   46  docker images
+   47  docker rmi 948f4397aa4e
+   48  docker rmi 922486eaef42
+   49  service firewalld stop
+   50  service firewalld start
+   51  docker images
+   52  docker push 10.1.2.50:5000/nginx-angular
+   53  service firewalld stop
+   54  service firewalld start
+   55  service firewalld stop
+   56  docker images
+   57  docker rmi e6d72460e17a
+   58  docker rmi 10.1.2.50:5000/nginx-angular
+   59  docker rmi 0cf08f862181
+   60  docker rmi 525beb09424a
+   61  docker images
+   62  docker rmi ec4ad8c312a2
+   63  docker rmi 10.1.2.50:5000/nginx-angular
+   64  docker rmi 0cf08f862181
+   65  docker rmi nginx-angular
+   66  docker images
+   67  docker rmi nginx-angular:v.1.0.2
+   68  docker images
+   69  docker rmi 0cf08f862181
+   70  service firewalld stop
+   71  service firewalld start
+   72  service firewalld stop
+   73  service firewalld start
+   74  service firewalld stop
+   75  service firewalld start
+   76  service firewalld stop
+   77  docker images
+   78  docker rmi nginx-angular:v.1.0.0
+   79  docker rmi nginx-angular:v.1.0.2
+   80  docker images
+   81  docker rmi 131f23aa4f0c
+   82  docker rmi ed5d3a779568
+   83  docker rmi ba7542c149df
+   84  docker images
+   85  service firewalld start
+   86  service firewalld stop
+   87  service firewalld start
+   88  สส
+   89  ll
+   90  df -h
+   91  pwd
+   92  ls
+   93  ll
+   94  cd docker
+   95  ls
+   96  cd ..
+   97  git clone https://github.com/justb4/docker-jmeter.git
+   98  ll
+   99  cd docker-jmeter/
+  100  ll
+  101  ./test
+  102  ./test.sh
+  103  vi tests/trivial/report/index.html
+  104  ls
+  105  vi test
+  106  vi test.sh
+  107  ll
+  108  ll tests/trivial/
+  109  ll tests
+  110  ll
+  111  cat run.sh 
+  112  ll
+  113  pwd
+  114  ls
+  115  cd docker-jmeter/
+  116  [wd
+  117  pwd
+  118  ll
+  119  cat test.sh
+  120  minikube list
+  121  grep -E --color 'vmx|svm' /proc/cpuinfo
+  122  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64   && chmod +x minikube
+  123  sudo mkdir -p /usr/local/bin/
+  124  sudo install minikube /usr/local/bin/
+  125  brew install minikube
+  126  minikube
+  127  minikube start
+  128  minikube status
+  129  minikube start --driver=test
+  130  minikube start
+  131  minikube start --driver=none
+  132  minikube start --kubernetes-version v1.18.0
+  133  minikube start     --network-plugin=cni     --enable-default-cni     --container-runtime=containerd     --bootstrapper=kubeadm
+  134  ps aux
+  135  minikube
+  136  minikube addons list
+  137  minikube addon metrics-server start
+  138  minikube addons metrics-server enable
+  139  minikube addons enable metrics-server
+  140  minikube dashboard
+  141  minikube start
+  142  docker ps
+  143  minikube start --insecure-registry
+  144  eval $(minikube docker-env)
+  145  minikube start --vm-driver="virtualbox" --insecure-registry="$REG_IP":80
+  146  minikube start
+  147  REG_IP=docker-machine ip registry
+  148  minikube addons enable metrics-server
+  149  minikube stop
+  150  minikube delete
+  151  cd /root
+  152  l
+  153  ll
+  154  cd /root/docker-jmeter
+  155  ll
+  156  sh test.sh
+  157  ll
+  158  cd  tests/trivial/report/index.html
+  159  cd /tests/trivial/report/index.html
+  160  cd ..
+  161  ll
+  162  cd docker-jmeter/
+  163  ll
+  164  cd tests/trivial/report/index.html 
+  165  cd tests/trivial/report
+  166  ll
+  167  less index.html 
+  168  q
+  169  ll
+  170  cd ..
+  171  ll
+  172  cd ..
+  173  ll
+  174  cd ..
+  175  ll
+  176  cd ..
+  177  ll
+  178  cd docker
+  179  ll
+  180  cd ..
+  181  ll
+  182  cd docker
+  183  ll
+  184  cd ..
+  185  cd docker-jmeter/
+  186  ll
+  187  cd Dockerfile 
+  188  ll
+  189  cd Dockerfile 
+  190  ll
+  191  cd run.sh 
+  192  cd ..
+  193  ll
+  194  cd docker
+  195  ll
+  196  cd .
+  197  ..
+  198  cd ..
+  199  docker-jmeter/
+  200  telnet 10.1.2.57 36900
+  201  ssh 10.1.2.57
+  202  ifconfig
+  203  docker login
+  204  docker info
+  205  docker tag nginx-angular:v.1.0.0 surabill/naginx-angular:v.1.0.0
+  206  docker ps
+  207  docker images
+  208  docker push surabill/naginx-angular:v.1.0.0
+  209  docker images
+  210  docker rmi 13cfbbc5c60a
+  211  docker rmi 047d572f745f
+  212  docker rmi 1dcef357777d
+  213  docker rmi e14811dce67c
+  214  docker rmi surabill/naginx-angular:v.1.0.0
+  215  docker rmi nginx-angular:v.1.0.0
+  216  docker rmi nginx-angular:v.1.0.2
+  217  docker images
+  218  docker rmi 65813bae13d3
+  219  docker images
+  220  service firewalld stop
+  221  service firewalld start
+  222  service firewalld stop
+  223  cd /root/
+  224  ll
+  225  cd docker
+  226  ll
+  227  cd ..
+  228  ll
+  229  cd docker-jmeter/
+  230  ll
+  231  less Dockerfile 
+  232  cd build.sh 
+  233  less build.sh 
+  234  ll
+  235  cd test.sh 
+  236  ll
+  237  cd test
+  238  less tests/
+  239  cd tests
+  240  ll
+  241  cd trivial/
+  242  ll
+  243  sh test-plan.j
+  244  cd ..
+  245  ll
+  246  sh test.sh 
+  247  ll
+  248  less test.sh 
+  249  ll
+  250  less run.sh 
+  251  ll
+  252  cd tests/
+  253  ll
+  254  cd trivial/
+  255  ll
+  256  docker image ls
+  257  cd /root/
+  258  ll
+  259  cd docker-jmeter/
+  260  ll
+  261  docker image ls
+  262  cd ..
+  263  ll
+  264  cd ..
+  265  ll
+  266  cd home/
+  267  ll
+  268  cd 
+  269  ll
+  270  cd docker-jmeter/
+  271  ll
+  272  cd tests/
+  273  ll
+  274  cd ..
+  275  ll
+  276  cd ..
+  277  ll
+  278  tar -czvf archive.tar.gz /root/docker-jmeter/
+  279  l
+  280  ll
+  281  cd docker
+  282  ll
+  283  cd ..
+  284  cd docker-jmeter/
+  285  ll
+  286  less entrypoint.sh 
+  287  ll
+  288  less Dockerfile 
+  289  ll
+  290  less run.sh 
+  291  ll
+  292  sudo docker run hello-world
+  293  สส
+  294  ll
+  295  less test.sh 
+  296  ll
+  297  less run.sh
+  298  ll
+  299  sh test.sh
+  300  docker images
+  301  cd /root/docker-jmeter/
+  302  ll
+  303  cd tests/
+  304  ll
+  305  cd tests
+  306  ll
+  307  cd trivial/
+  308  ll
+  309  less test-plan.jtl
+  310  ll
+  311  cd ..
+  312  ll
+  313  cd ..
+  314  ll
+  315  less run.sh
+  316  ll
+  317  less test.sh
+  318  ifconfig
+  319  ip addr show
+  320  docker exec -it cd8086d78fd7 bash
+  321  docker image ls
+  322  ls
+  323  cd docker
+  324  ls
+  325  cd ..
+  326  ls
+  327  cat saml.sh 
+  328  ./saml.sh 
+  329  docker run --help
+  330  ls
+  331  docker image ls
+  332  docker logs
+  333  docker images
+  334  docker ps
+  335  docker exec -it b5eed621448c bash
+  336  ls
+  337  cat saml.sh 
+  338  ./saml.sh 
+  339  docker ps -a -s
+  340  docker start b5eed621448c
+  341  docker ps
+  342  docker exec -it b5eed621448c bash
+  343  docker image ls
+  344  ls
+  345  cat saml.sh 
+  346  cat saml2.sh 
+  347  history
+  348  history |grep saml
+  349  ls
+  350  cat saml
+  351  cat saml2.sh 
+  352  docker image ls
+  353  ls
+  354  docker exec -it b5eed621448c bash
+  355  ls
+  356  ./saml2.sh 
+  357  su root
+  358  docker ps -a
+  359  cd /data/
+  360  ll
+  361  docker images
+  362  docker rmi 3cc5ae056410
+  363  docker rmi 0684d2dc4e30
+  364  docker ps
+  365  kubectl get all
+  366  docker rmi nginx-angular
+  367  docker rmi nginx-angular:v.1.0.0
+  368  docker rmi 512b68758845
+  369  docker rmi 365ca0a524ae
+  370  df
+  371  df -h
+  372  docker ps
+  373  history |grep curl
+  374  curl -X GET http://10.1.2.50:5000/v2/_catalog
+  375  history
+  376  cd /opt/
+  377  ll
+  378  docker images
+  379  docker rmi 9ad5705703ca
+  380  docker rmi 470cccf7918c
+  381  docker ps -all
+  382  docker ps --all
+  383  docker rm 294d12572c1c
+  384  docker rm d724c4129286
+  385  docker rm 5f1925d908e2
+  386  docker rm eb51a2c070ff
+  387  docker rm 38ffd01f8235
+  388  docker rm a26193fae6eb
+  389  docker rm e79549458a78
+  390  docker rm 010312c2a122
+  391  docker rm 1a7f87b426bc
+  392  docker rm 75885ccac90f
+  393  docker rm 81ac4b84a1f9
+  394  docker rm f814221e68d0
+  395  docker rmi a2821bb1b491
+  396  docker rmi 0684d2dc4e30
+  397  docker rmi 5b1bca936247
+  398  docker rmi 3cc5ae056410
+  399  docker rmi 9addd311f61f
+  400  docker rmi 8a6e4be30454
+  401  docker rmi 5061605cab0e
+  402  docker rmi 470cccf7918c
+  403  docker rmi 9ad5705703ca
+  404  docker images
+  405  df -h
+  406  docker rmi a69d770e9da6
+  407  docker rmi 4582378d8229
+  408  docker images
+  409  df -h
+  410  docker rmi 558411550c40
+  411  df -h
+  412  ls
+  413  docker -v
+  414  mkdir docker-oracle
+  415  ls
+  416  cd docker-oracle/
+  417  git clone https://github.com/oracle/docker-images.git
+  418  ls -lrt
+  419  cd docker-images
+  420  cd OracleDatabase/SingleInstance/dockerfiles
+  421  ./buildDockerImage.sh -v 12.1.0.2 -s -i
+  422  สห
+  423  ls
+  424  ./buildDockerImage.sh -v 19.3.0 -s -i
+  425  cd ..
+  426  สห
+  427  ls
+  428  cd docker-images/
+  429  ls
+  430  cd ..
+  431  ls
+  432  cd docker-oracle/
+  433  cd docker-images/
+  434  ls
+  435  cd OracleDatabase/
+  436  ls
+  437  cd SingleInstance/
+  438  ls
+  439  cd dockerfiles/
+  440  ./buildDockerImage.sh
+  441  ./buildDockerImage.sh -v 19.3.0 -s -i
+  442  docker images |grep oracle
+  443  docker run --name OracleSE \
+  444  docker port oracle
+  445  docker ps
+  446  docker run --name OracleSE -p 1521:1521 -p 5500:5500 -e ORACLE_SID=TEST01 -e ORACLE_PDB=TESTPDB01 -e ORACLE_PWD=password -e ORACLE_CHARACTERSET=AL32UTF8 oracle/database:12.1.0.2-se2
+  447  docker run --help
+  448  oracle/database:19.3.0-se2
+  449  ls
+  450  oracle/database:19.3.0
+  451  docker ps
+  452  oracle/database
+  453  docker images |grep oracle
+  454  docker run --name OracleSE -p 1521:1521 -p 5500:5500 -e ORACLE_SID=TEST01 -e ORACLE_PDB=TESTPDB01 -e ORACLE_PWD=password -e ORACLE_CHARACTERSET=AL32UTF8 oracle/database:19.3.0-se2
+  455  docker images |grep oracle
+  456  docker run --name OracleSE \
+  457  docker ps
+  458  docker run --name OracleSE -p 1521:1521
+  459  docker run --name OracleSE -p 1521:1521 -e ORACLE_SID=TEST01 -e ORACLE_PDB=TESTPDB01 -e ORACLE_PWD=password -e ORACLE_CHARACTERSET=AL32UTF8 oracle/database:19.3.0-se2
+  460  docker run --name OracleSE -p 1521:1521 -p 5500:5500 -e ORACLE_SID=TEST01 -e ORACLE_PDB=TESTPDB01 -e ORACLE_PWD=password -e ORACLE_CHARACTERSET=AL32UTF8 oracle/database:19.3.0-se2
+  461  docker run --name Oracle -p 1521:1521 -e ORACLE_SID=TEST01 -e ORACLE_PDB=TESTPDB01 -e ORACLE_PWD=password -e ORACLE_CHARACTERSET=AL32UTF8 oracle/database:19.3.0-se2
+  462  docker ps
+  463  docker ps
+  464  docker exec -ti OracleSE sqlplus
+  465  docker ps
+  466  docker-compose up
+  467  ls
+  468  cd docker-oracle/
+  469  docker-compose up
+  470  ./buildDockerImage.sh -h
+  471  cd docker-images/
+  472  ls
+  473  cd OracleDatabase/
+  474  ls
+  475  cd SingleInstance/
+  476  cd cd dockerfiles/
+  477  cd dockerfiles/
+  478  ./buildDockerImage.sh -h
+  479  ./buildDockerImage.sh
+  480  docker run --name Oracle -p 1521:1521 -p 5500:5500 -e ORACLE_SID=TEST01 -e ORACLE_PDB=TESTPDB01 -e ORACLE_PWD=password -e ORACLE_CHARACTERSET=AL32UTF8 oracle/database:19.3.0-se2
+  481  docker run --help
+  482  docker run --name Oracle-priv -p 1521:1521 -p 5500:5500 -e ORACLE_SID=TEST01 -e ORACLE_PDB=TESTPDB01 -e ORACLE_PWD=password -e ORACLE_CHARACTERSET=AL32UTF8 oracle/database:19.3.0-se2
+  483  docker run -p
+  484  docker ps
+  485  help
+  486  docker ps
+  487  docker run --name Oracle -p 1521:1521 -e ORACLE_SID=TEST01 -e ORACLE_PDB=TESTPDB01 -e ORACLE_PWD=password -e ORACLE_CHARACTERSET=AL32UTF8 oracle/database:19.3.0-se2
+  488  docker run --help
+  489  docker ps -a
+  490  docker rm 58b1c9e9eb93
+  491  docker ps -a
+  492  docker rm 3c658ccb92f0        oracle/database:19.3.0-se2    "/bin/sh -c 'exec $O…"   2 days ago          Up 2 days (unhealthy)     0.0.0.0:1521->1521/tcp                                   Oracle
+  493  docker rm 3c658ccb92f0
+  494  docker ps -a
+  495  docker rm 745761ece692
+  496  docker ps -a
+  497  docker stop 3c658ccb92f0
+  498  docker ps -a
+  499  docker start 3c658ccb92f0
+  500  docker ps -a
+  501  docker ps
+  502  pm2 list
+  503  ls
+  504  cd docker
+  505  ls
+  506  cd ..
+  507  docker image ls
+  508  docker exec -it b5eed621448c bash
+  509  docker run b5eed621448c
+  510  history
+  511  docker image ls
+  512  docker exec -it b5eed621448c bash
+  513  ls
+  514  cat saml2.sh
+  515  cat saml.sh
+  516  sh saml.sh
+  517  docker container ls
+  518  docker container ls -a
+  519  docker run b5eed621448c
+  520  docker container ls -a
+  521  docker start b5eed621448c
+  522  docker container ls -a
+  523  docker ps
+  524  docker start 3c658ccb92f0
+  525  docker container ls -a
+  526  docker ps
+  527  docker ps
+  528  cd /root/docker
+  529  ll
+  530  cd..
+  531  cd ..
+  532  docker images
+  533  history
+  534  history | grep build
+  535  cd /data/new-staffprivilege/staff-privilege-fe/
+  536  ll
+  537  cat Dockerfile 
+  538  cd ..
+  539  ll
+  540  cd ..
+  541  ll
+  542  cd ..
+  543  ll
+  544  git clone --branch develop https://git.matador.ais.co.th/vdo/vdo-store/ott-core-services.git
+  545  cd /data/
+  546  ll
+  547  git clone --branch develop https://git.matador.ais.co.th/vdo/vdo-store/ott-core-services.git
+  548  ll
+  549  cd ott-core-services/
+  550  ll
+  551  mvn package
+  552  cd ..
+  553  docker ps
+  554  history | grep build
+  555  cd /data/
+  556  ll
+  557  cd new-staffprivilege/
+  558  ll
+  559  cd staff-privilege-be/
+  560  ll
+  561  cat Dockerfile
+  562  cd ..
+  563  cd staff-privilege-be/
+  564  ll
+  565  cat build_docker.sh 
+  566  แก ใใ
+  567  cd ..
+  568  ll
+  569  cd ..
+  570  ll
+  571  cd ott-core-services/
+  572  docker build -t ott-core-servie .
+  573  docker images
+  574  cat Dockerfile 
+  575  docker run -p 9000:8080 ott-core-servie
+  576  docker ps
+  577  docker ps --all
+  578  docker --hekp
+  579  docker --help
+  580  docker ps --all
+  581  docker logs b2a0609d7aa6
+  582  cat Dockerfile 
+  583  ll
+  584  vi Dockerfile 
+  585  docker ps --all
+  586  docker rm b2a0609d7aa6
+  587  docker images
+  588  docker rmi 3c9dec177112
+  589  docker build -t ott-core-servie .
+  590  docker run -p 9000:8080 ott-core-servie
+  591  docker ps
+  592  docker ps --all
+  593  java
+  594  vi Dockerfile 
+  595  docker ps -all
+  596  docker rm d35436a89e41
+  597  docker images
+  598  docker rmi 31688624e7cd
+  599  docker build -t ott-core-servie .
+  600  docker run -p 9000:8080 ott-core-servie
+  601  netstat -plnut
+  602  docker ps --all
+  603  docker rm 7bc663168191
+  604  docker run -p 9110:8080 ott-core-servie
+  605  docker ps --all
+  606  docker logs  659902e971ec
+  607  ll
+  608  docker ps
+  609  docker rm 659902e971ec
+  610  docker rmi ott-core-servie
+  611  ll
+  612  cd target/
+  613  ll
+  614  cd ..
+  615  ll
+  616  docker build -t ott-core-servie .
+  617  docker run -p 9110:8080 ott-core-servie
+  618  docker ps
+  619  docker ps --all
+  620  docker logs d8c110d4af32
+  621  ps aux
+  622  lsof -i -P -n | grep LISTEN
+  623  netstat 
+  624  ss -tulwn
+  625  vi Dockerfile 
+  626  docker ps
+  627  docker ps --all
+  628  docker rm d8c110d4af32
+  629  docker rmi ott-core-servie
+  630  vi Dockerfile 
+  631  docker build -t ott-core-servie .
+  632  vi Dockerfile 
+  633  docker build -t ott-core-servie .
+  634  docker run -p 9110:8080 ott-core-servie
+  635  vi Dockerfile 
+  636  docker ps --all
+  637  docker rm e279a54c6749
+  638  docker rmi ott-core-servie
+  639  docker build -t ott-core-servie .
+  640  docker run -p 9110:9090 ott-core-servie
+  641  cat Dockerfile 
+  642  vi Dockerfile 
+  643  cd /
+  644  ll
+  645  cd /data/
+  646  ll
+  647  cd ott-core-services/
+  648  ll
+  649  mvn --version
+  650  less Dockerfile 
+  651  ll
+  652  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8080 > java_console.log 2>&1
+  653  ll
+  654  less java_console.log 
+  655  rm java_console.log 
+  656  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8080 > java_console.log 2>&1
+  657  less java_console.log 
+  658  netstat -tulpn | grep jar
+  659  netstat -tulpn | grep LISTEN
+  660  netstat
+  661  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8082 > java_console.log 2>&1
+  662  ll
+  663  jess java_console.log 
+  664  less java_console.log 
+  665  cd target/
+  666  ll
+  667  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8080 > java_console.log 2>>&1
+  668  cd ..
+  669  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8080 > java_console.log 2>>&1
+  670  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8080 > java_console.log &>>
+  671  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8080 &>> java_console.log
+  672  ll
+  673  less java_console.log 
+  674  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8080 &>> java_console.log
+  675  less java_console.log 
+  676  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8080 &>> java_console.log
+  677  less java_console.log 
+  678  java -Djava.security.egd=file:/dev/./urandom -jar ./target/ott-iap-services-0.0.1-SNAPSHOT.jar --spring.profiles.active=iot --server.port=8082 &>> java_console.log
+  679  less java_console.log 
+  680  ps aux | grep jar
+  681  su - toro
+  682  ll
+  683  cd /opt/
+  684  ll
+  685  docker ps
+  686  ORACLE_SID=TEST02
+  687  export ORACLE_SID
+  688  sqlplus /nolog
+  689  df
+  690  df -h
+  691  docker ps
+  692  docker exec -it 3c658ccb92f0 sh
+  693  ll
+  694  docker ps
+  695  docker ps -a
+  696  ping 10.1.2.159
+  697  ifconfig
+  698  `ifconfig
+  699  docker ps -a
+  700  exit
+  701  ifconfig
+  702  mntui
+  703  nmtui
+  704  vi /etc/hostname 
+  705  reboot
+  706  ifconfig
+  707  ping google.com
+  708  docker ps -a
+  709  shutdown -h now
+  710  ifconfig
+  711  docker ps -a
+  712  ls -la
+  713  cat jenkins
+  714  cat jenkinsest.sh 
+  715  cat jenkins.sh 
+  716  docke ps -a
+  717  clear
+  718  docker ps -a
+  719  docke stop 0cc37c2a3b42 66a69da27e88
+  720  docker stop 0cc37c2a3b42 66a69da27e88
+  721  docker ps -a
+  722  docker exec -it -u root 597e7a0e0f57 /bin/bash
+  723  ls -la
+  724  docker ps -a
+  725  docker stop 333c51ffd74c 597e7a0e0f57
+  726  docker ps -a
+  727  clear
+  728  git config --list
+  729  git config --global user.name "Juthathip Kongpun"
+  730  git config --global user.email "juthathip_kongpun@outlook.com"
+  731  git --version
+  732  ls -la
+  733  git config --list+
+  734  git config --list
+  735  clear
+  736  git clone https://github.com/mayjk23/demo-nodejs-mongo-rest.get.git
+  737  ls -la
+  738  cd demo-nodejs-mongo-rest.get/
+  739  ls -la
+  740  git pull
+  741  git status
+  742  git  checkout Develop
+  743  git status
+  744  ls -la
+  745  docker build -t mayjk23/nodejs .
+  746  ls -la
+  747  cat jenkins-docker-compose.yml 
+  748  ls -la
+  749  docker ps -a
+  750  ls -la
+  751  cat jenkins-docker-compose.yml 
+  752  docker images
+  753  docker rmi efd992e08a09
+  754  docker build -t mayjk23/nodejs-demo .
+  755  docker ps -a
+  756  docker images
+  757  docker login
+  758   docker login --username mayjk23 --password
+  759  ls -la
+  760  cd
+  761  ls -la
+  762  touch pw.txt
+  763  vi pw.txt 
+  764   cat ~/wp.txt | docker login --username foo --password-stdin
+  765  docker login  cat ~/wp.txt | docker login --username foo --password-stdin
+  766  ls -la
+  767  rm pw.txt
+  768  cd demo-nodejs-mongo-rest.get/
+  769  ls -la
+  770  cat jenkins-docker-compose.yml 
+  771  cat Jenkinsfile 
+  772  docker ps -a
+  773  history
+  774  docker login
+  775  ls -la
+  776  cd ..
+  777  ls -la
+  778  cat /etc/passwd
+  779  docker --version
+  780  docker login  hub.docker.com
+  781  docker login --username mayjk23 --password Kongpun232534_GG
+  782  docker images
+  783  cat  /root/.docker/config.json
+  784  docker push mayjk23/nodejs-demo:latest
+  785  cd demo-nodejs-mongo-rest.get/
+  786  ls -la
+  787  cat jenkins-docker-compose.yml 
+  788  docker-compose -f   jenkins-docker-compose.yml   up -d
+  789  docker-compose --version
+  790  sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  791  sudo chmod +x /usr/local/bin/docker-compose
+  792  docker-compose --version
+  793  docker-compose -f   jenkins-docker-compose.yml   up -d
+  794  docker ps -a
+  795  docker stop 112f27fb1794
+  796  docker ps -a
+  797  docker stop 112f27fb1794
+  798  docker rm 112f27fb1794
+  799  docker ps -a
+  800  cat /etc/selinux/config
+  801  vi /etc/selinux/config
+  802  reboot
+  803  clear
+  804  cd demo-nodejs-mongo-rest.get/
+  805  ls
+  806  ls -la
+  807  docker-compose -f   jenkins-docker-compose.yml   up -d
+  808  cd /etc/timezone/
+  809  ls -la
+  810  date
+  811  ls -la
+  812  cd ..
+  813  cd dem
+  814  cd
+  815  cd demo-nodejs-mongo-rest.get/
+  816  ls -la
+  817  docker ps -a
+  818  docker stop 08192230201c
+  819  docker rm 08192230201c
+  820  docker ps -a
+  821  git pull
+  822  ls -la
+  823  cat jenkins-docker-compose.yml 
+  824  git status
+  825  git pull
+  826  ls -la
+  827  cat jenkins-docker-compose.yml 
+  828  docker-compose -f   jenkins-docker-compose.yml   up -d
+  829  docker ps -a
+  830  แฟะ /var/jenkins_home/secrets/initialAdminPassword
+  831  cat /var/jenkins_home/secrets/initialAdminPassword
+  832  docker ps -a
+  833  docker exec -it -u root demo-nodejs-mongo-restget_jenkins_1
+  834  docker exec -it -u root demo-nodejs-mongo-restget_jenkins_1 /bin/bash
+  835  docker ps -a
+  836  exit
+  837  uptime
+  838  date
+  839  clear
+  840  uptime
+  841  cat /etc/passwd
+  842  exit
+  843  clear
+  844  ifconfig
+  845  docker ps -a
+  846  docker exec -it -u root 5c09d9cdc950 /bin/bash
+  847  docker start 5c09d9cdc950
+  848  clear
+  849  docker ps -a
+  850  docker ps -a
+  851  ls -la
+  852  cd demo-nodejs-mongo-rest.get/
+  853  ls -la
+  854  docker ps -a
+  855  docker -ps
+  856  docker ps -a
+  857  docker exec -it -u root e111fd1175b3 /bin/bash
+  858  docker ps -a
+  859  docker exec -it -u root e111fd1175b3 /bin/bash
+  860  docker ps -a
+  861  docker stop 333c51ffd74c
+  862  docker stop 66a69da27e88
+  863  docker stop 0cc37c2a3b42
+  864  docker ps -a
+  865  docker login --username mayjk23 --password Kongpun232534_GG
+  866  login
+  867  docker ps -a
+  868  docker images
+  869  docker rmi 7ee1e9afab87
+  870  docker images
+  871  ls -la
+  872  cd demo-nodejs-mongo-rest.get/
+  873  ls 0la
+  874  ls -la
+  875  docker build -t mayjk23/demo-nodejs .
+  876  docker ps -a
+  877  docker rm ed31109aee32
+  878  docker rm 5a7d264fed1d 0a85c1e5ce00 c936c359ce21e8cbac61ad4c
+  879  docker ps -a
+  880  docker rm c936c359ce21 e8cbac61ad4c 00b32cb06151
+  881  docker ps -a
+  882  docker run -d -p 5000:5000 --name registry-test registry:2
+  883  docker ps -a
+  884  cd /etc/docker/
+  885  ls -la
+  886  cat daemon.json 
+  887  ls -ladaemon.json 
+  888  ls -la daemon.json 
+  889  cp daemon.json daemon.json.origin
+  890  ls -la
+  891  vi daemon.json
+  892  cat /etc/passwd
+  893  cat /etc/group
+  894  sudo usermod -aG docker may
+  895  useradd may
+  896  sudo usermod -aG docker may
+  897  cat /etc/group
+  898  ls
+  899  cd
+  900  clear
+  901  cd  /home/
+  902  ls  -la
+  903  cd may/
+  904  ls -la
+  905  cd ..
+  906  cat .bash_profile
+  907  cat .bashrc
+  908  docker ps -a
+  909  docker exec -it -u root e111fd1175b3 /bin/bash
+  910  date
+  911  docker exec -it -u root e111fd1175b3 /bin/bash
+  912  docker ps -a
+  913  docker restart e111fd1175b3
+  914  docker exec -it -u root e111fd1175b3 /bin/bash
+  915  docker ps -a
+  916  docker stop 29e7f3672bb4 8df9a3a3346d a4e50e72a2fb 8f343c551246
+  917  docker ps -a
+  918  docker rm 29e7f3672bb4 8df9a3a3346d a4e50e72a2fb 8f343c551246
+  919  docker ps -a
+  920  docker restart 78cdd3176851 361c1c4aff30
+  921  docker ps -a
+  922  dicker ps -a
+  923  docker ps -a
+  924  docker stop 1bbdca3981fe 4fb9e752d71d c42a785539bb 5480c1fa0e76
+  925  docker rm 1bbdca3981fe 4fb9e752d71d c42a785539bb 5480c1fa0e76
+  926  docker ps -a
+  927  docker stop 46f76b340cd2 10245f219a01 08431a2337f6 361c1c4aff30
+  928  docker rm 46f76b340cd2 10245f219a01 08431a2337f6 361c1c4aff30
+  929  docker ps -a
+  930  docker stop 0d638d5dba6e d6a57ea10efc 136c3876e0d8 68b7eb62546e
+  931  docker ps -a
+  932  docker rm 0d638d5dba6e d6a57ea10efc 136c3876e0d8 68b7eb62546e
+  933  docker ps -a
+  934  cd
+  935  cd demo-nodejs-mongo-rest.get/
+  936  docker restart 0068e0e87abc
+  937  docker restart 7d069c646eaf
+  938  sudo yum -y update
+  939  sudo yum -y install docker-distribution
+  940  cd  /etc/docker-distribution/
+  941  ls -la
+  942  cd registry/
+  943  ls -la
+  944  cp config.yml config.yml.origin
+  945  ls -la
+  946  vi config.yml
+  947  telnel 10.1.2.159 5000
+  948  yum install telnet
+  949  yum search telnet
+  950  yum install telnet.x86_64
+  951  telnet 127.0.0.1 5000
+  952  vi  /etc/docker/daemon.json
+  953  cd  /etc/docker/
+  954  ls -la
+  955  vi daemon.json
+  956  cat daemon.json
+  957  clear
+  958  cat daemon.json
+  959  vi daemon.json
+  960  systemctl restart docker
+  961  docker ps -a
+  962  docker stop 66a69da27e88 0cc37c2a3b42 333c51ffd74c
+  963  docker ps -a
+  964  docker stop bc1c274eb682
+  965  docker ps -a
+  966  cat /etc/hosts
+  967  hostname
+  968  ifconfig
+  969  yum install net-tools
+  970  ifconfig
+  971  vi /etc/hosts
+  972  vi daemon.json
+  973  docker images
+  974  docker rmi f0730f402983 f0730f402983 4680a375bf7d 09c82755b6b6 869342ff1d55 a5ccff461629 1026e06546d2 6302fd21a102 
+  975  docker images
+  976  docker rmi f0730f402983 f0730f402983 4680a375bf7d c0e1c8048848 6cf981b76302 5d3e041d211e ac9a90e7b1bd adf23c5e930a
+  977  docker images
+  978  docker rmi 8f39cfb902a1 351ed43fcded a87e63bb27ac
+  979  docker images
+  980  docker pull ubuntu:16.04
+  981  docker images
+  982  docker tag ubuntu:16.04 myregistry.local:5000/ubuntu:16.04
+  983  ls /var/lib/registry/docker/registry/v2/repositories
+  984  docker push myregistry.local:5000/ubuntu:16.04
+  985  systemctl restart docker-distribution
+  986  systemctl enable docker-distribution
+  987  systemctl status docker-distribution
+  988  docker push myregistry.local:5000/ubuntu:16.04
+  989  pwd
+  990  cd /etc/docker
+  991  ls
+  992  clear
+  993  ls -la
+  994  vi daemon.json
+  995  systemctl restart docker
+  996  docker ps -a
+  997  docker stop  0cc37c2a3b42 66a69da27e88
+  998  docker ps -a
+  999  docker pull ubuntu:16.04
+ 1000  docker push myregistry.local:5000/ubuntu:16.04
+ 1001  docker ps -a
+ 1002  ls /var/lib/registry/docker/registry/v2/repositories
+ 1003  docker ps -a
+ 1004  docker rm d5fe3fdf8400 949e48698e25 04b2506cfbad ebdc7f0484cb d69be15d5b12 7d069c646eaf
+ 1005  docker ps -a
+ 1006  docker exec -it -u root 333c51ffd74c /bin/bash
+ 1007  docker images
+ 1008  history
+ 1009  ls -la
+ 1010  cd demo-nodejs-mongo-rest.get/
+ 1011  ls -la
+ 1012  history > history.txt
