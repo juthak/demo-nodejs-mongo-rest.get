@@ -6,10 +6,7 @@ pipeline {
 
     environment {
         image = "mayjk23/demo-nodejs"
-        //registry = ""
-        //imageName = 'jenkkube-demo'
-        registryCredentialSet = 'myregistry'
-        registryUri = 'myregistry.local:5000'
+        registry = "docker.io"
     }
 
     stages {
@@ -36,8 +33,7 @@ pipeline {
         stage('Build docker image') {
             steps {
                 script {
-                    //docker.withRegistry('', 'dockerhub') 
-                    docker.withRegistry(registryUri) {
+                    docker.withRegistry('', 'dockerhub') {
                         def slackImage = docker.build("${env.image}:${BUILD_NUMBER}")
                         slackImage.push()
                         slackImage.push('latest')

@@ -2,7 +2,7 @@ version: "3"
 
 services:
   web-node-js:
-    image: mayjk23/demo-nodejs:latest
+    image: myregistry.local:5000/mayjk23/demo-nodejs
     restart: always
     ports:
       - "3000:3000"
